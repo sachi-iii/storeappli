@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fed37e6f.css",
+    "main.js": "/static/js/main.ec1b0ff6.js",
+    "static/media/main_anime.gif": "/static/media/main_anime.1b7a84172848dc5c3fa5.gif",
+    "static/media/photo.png": "/static/media/photo.1696a8ccf19fd0cb9245.png",
+    "static/media/extra.png": "/static/media/extra.f426e4017373ce2c8b01.png",
+    "static/media/push.png": "/static/media/push.a8b8884df8e81a5985e2.png",
+    "static/media/coupon.png": "/static/media/coupon.37f18031864a66e98af2.png",
+    "static/media/point.png": "/static/media/point.a8017e9cb76585a5e489.png",
+    "static/media/stamp.png": "/static/media/stamp.6b540a277f9947f9706b.png",
+    "static/media/menu.png": "/static/media/menu.e27f9b97615a30a81451.png",
+    "static/media/customize_screen.png": "/static/media/customize_screen.6c205b6aa502eab0f0ba.png",
+    "static/media/step3.png": "/static/media/step3.f6fd7b1742d8003946f8.png",
+    "static/media/main_text.png": "/static/media/main_text.be5620ae63d2e421f5d7.png",
+    "static/media/step1.png": "/static/media/step1.c95f7927bf1fd476bd52.png",
+    "static/media/step2.png": "/static/media/step2.fb039721691dd0486edb.png",
+    "static/media/step4.png": "/static/media/step4.b99f6f6d978a24688f42.png",
+    "static/media/merit1.png": "/static/media/merit1.fc6a9b500f23f5b25b44.png",
+    "static/media/merit3.png": "/static/media/merit3.63ad8895ec5711e9e118.png",
+    "static/media/merit2.png": "/static/media/merit2.708dbac8a6f32f067d68.png",
+    "static/media/logo.svg": "/static/media/logo.3c66aa6d0728fff92ebb7157a658dd61.svg",
+    "static/media/ico_sns_instagram.svg": "/static/media/ico_sns_instagram.7226ab592ea60580e3c3.svg",
+    "static/media/ico_sns_facebook.svg": "/static/media/ico_sns_facebook.9c5500321f7d77ea027d.svg",
+    "index.html": "/index.html",
+    "main.fed37e6f.css.map": "/static/css/main.fed37e6f.css.map",
+    "main.ec1b0ff6.js.map": "/static/js/main.ec1b0ff6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fed37e6f.css",
+    "static/js/main.ec1b0ff6.js"
+  ]
+}

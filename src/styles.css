@@ -1,0 +1,90 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    width: 100%;
+}
+
+/* ※ 480pxから　*/
+@media screen and ( min-width:480px ) {
+
+    /* 全要素の余白 */
+    .container {
+        max-width: 1300px;
+        padding: 0 40px;
+        margin: 0 auto;
+    }
+
+    /* ヘッダ */
+    .header {
+        background-color: pink;
+        /* ※スクロール時の固定 */
+        position: fixed;
+        width: 100%;
+    }
+    
+    .header > .container {
+        height: 80px;
+        display: flex;
+        align-items: center;
+    }
+
+    .logo > img {
+        height: 30px;
+        vertical-align: bottom;
+    }
+
+    /* ナビゲーション */
+    .area_nav_header {
+        margin-left: auto;
+    }
+
+    /* リストナビ */
+    .list_nav_header {
+        list-style: none;
+        display: flex;
+        align-items: center;
+    }
+
+    .list_nav_header a {
+        margin-left: 30px;
+        text-decoration: none;
+        color: white;
+        font:  600 15px/1em '游ゴシック体', 'Yu Gothic', YuGothic, sans-serif ;
+    }
+}
+
+
+/* ※　480pxまで */
+@media screen and ( max-width:480px ) {
+    /* ヘッダ */
+    .header {
+        background-color: black;
+        /* ※スクロール時の固定 */
+        position: fixed;
+        width: 100%;
+    }
+
+
+    .header > .container {
+        height: 80px;
+        display: flex;
+        align-items: center;
+    }
+
+    /* ナビゲーション */
+    .area_nav_header {
+        margin-left: auto;
+        background-color: rgb(231, 210, 21);
+    }
+
+    .list_nav_header a {
+        display: block;
+        text-decoration: none;
+        color: #fff;
+    }
+
+
+}

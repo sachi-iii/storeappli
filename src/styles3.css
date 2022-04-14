@@ -1,0 +1,652 @@
+
+
+
+html, body {
+    color: #444446;
+    font-size: 62.5%;
+    font-family:  'Noto Sans JP', '游ゴシック体', 'Yu Gothic', YuGothic, sans-serif;
+    font-style: normal;
+    font-feature-settings: 'palt';
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+
+
+
+
+
+
+
+/* ヘッダ */
+/* いらんかったんじゃ？ */
+/* .area_logo_header .logo {
+    display: block;
+} */
+
+
+
+
+
+
+
+/* リストナビ */
+.list_nav_header {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.list_nav_header a {
+    margin-left: 30px;
+    text-decoration: none;
+    color: white;
+    font: 600 15px/1em '游ゴシック体', 'Yu Gothic', YuGothic, sans-serif ;
+    
+    /* レスポンシブ用に追加 */
+    display: block;
+}
+
+.list_nav_header  .btn_contact {
+    color: black;
+    display: flex;
+    align-items: center;
+    height: 36px;
+    padding: 0 24px;
+    background: rgb(245, 197, 30);
+    border-radius: 2px;
+}
+
+
+
+/* ボディ 背景色*/
+.area_home_main , .area_home_about , .area_home_merit , .area_home_feature , .area_home_cost, .area_home_step{
+    padding: 90px 0;
+    width: 100%;
+}
+
+.area_home_main , .area_home_merit , .area_home_step{
+    background:rgb(245, 197, 30);
+}
+.area_home_about {
+    background: linear-gradient(180deg, #efefeb 20%, #fff 90%);
+}
+
+.area_home_cost {
+    background:blanchedalmond;
+}
+
+
+
+/* ボディ　タイトル　共通項目 */
+.head_home {
+    text-align: center;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+}
+
+.ttl_eng {
+    font-size: 12rem;
+    color: #fff5dd;
+    line-height: 1;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    font-weight: 350;
+}
+
+.ttl_ja {
+    font-size: 2.4rem;
+    font-weight: bold;
+    letter-spacing: 0.24em;
+    padding: 30px 0 0 30px;
+    /* justify-content: center; */
+}
+
+.body_contents {    
+    display: flex;
+    justify-content: center;
+    vertical-align: baseline;
+}
+
+
+
+/* ヘッダ固定した分の余白下げ */
+.body_goods, .main_image{
+    margin-top: 80px;
+}
+
+/* .body_goods > img {
+    height: 50%; */
+    /* height: 500; */
+    /* width: auto;
+} */
+
+
+/* ボディ MAIN*/
+.btn_design_gallery {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(245, 197, 30);
+    width: 70%;
+    margin: 30px  auto;
+    padding:  20px 50px ;
+    background: black;
+    border-radius: 10px;
+    font: 600 22px/1em '游ゴシック体', 'Yu Gothic', YuGothic, sans-serif ;
+}
+
+.btn_design_gallery:hover , .btn_contact_link:hover {
+    background-color:white;
+    color: black;
+}
+
+
+
+/* ボディ　ABOUT */
+.body_about_txt {
+    font-size: 5.5rem;
+    line-height: 1.5em;
+    font-weight: 500;
+    margin-bottom: 30px;
+    letter-spacing: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.body_about_smalltxt {
+    font-size: 2.5rem;
+    line-height: 2em;
+    font-weight: bold;
+    letter-spacing: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+
+
+/* ボディ FEATURE */
+.body_feature{
+    margin: 150px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.feature_ttl{
+    font-size: 60px;
+}
+
+.feature_contents{
+    /* 縦に中央揃え */
+    display:flex;
+    justify-content: center;
+    flex-direction:column;
+}
+
+.feature_contents_center{
+    text-align: center;
+}
+
+.body_feature_txt, .feature_txt{
+    /* font-size: 2rem; */
+    font-size: 25px;
+    line-height: 1.5em;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.feature_txt{
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.push_color, .stamp_color, .coupon_color, .point_color, .photo_color{
+    border-radius: 70px ;
+    margin: 5px 0;
+    padding: 6px 0;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+/* 小見出し背景色 */
+.push_color, .point_color{
+    background-color: #f5d61e;
+    color: #000;
+}
+
+.point_color{
+    text-align: center;
+}
+
+.stamp_color, .photo_color{
+    background-color: #0000ff;
+    color:#ffffff;
+    text-align: center;
+}
+
+.coupon_color{
+    background-color: #c30d23;
+    color:#ffffff;
+    text-align: center;
+}
+
+
+
+/* ボディ　COST */
+.body_cost{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
+
+}
+
+.cost_ttl{
+    font-size: 45px;
+    line-height: 80px;
+    padding-bottom: 20px;
+    
+}
+
+.cost_ttl > b{
+    font-size: 80px;
+    vertical-align: -5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.body_cost_ttl > span{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.pricebox{
+    background-color: rgb(245, 197, 30);
+    width: 250px;
+    height: 250px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.price2 {
+    font-size: 20px;
+
+}
+
+.pricetxt{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.price{
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.price > b {
+    font-size: 70px;
+    letter-spacing: -0.2rem;
+}
+
+.menu_image{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+    
+
+    
+/* ボディ　STEP */
+.btn_contact_link{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(245, 197, 30);
+    margin: 80px auto 0;
+    padding:  20px 50px ;
+    width: 30%;
+    background: black;
+    border-radius: 10px;
+    font: 600 22px/1em '游ゴシック体', 'Yu Gothic', YuGothic, sans-serif ;
+}
+    
+.step_contents{
+    padding: 20px;
+}
+
+.step_contents > h2 {
+    font-size: 25px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+
+/* フッタ */
+footer{
+    background: rgb(245, 197, 30);
+}
+
+footer > .container{
+    padding: 0 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list_sns{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 -10px;
+}
+
+.list_sns > li {
+    padding: 50px 10px 10px;
+    list-style: none;
+}
+
+.list_sns a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: #000;
+    border-radius: 50%;
+    position: relative;
+}
+
+.list_sns a:before{
+    content: "";
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50% , -50% );
+}
+
+.list_sns .instagram a:before{
+    background: url(img/ico/ico_sns_instagram.svg);
+}
+.list_sns .facebook a:before{
+    background: url(img/ico/ico_sns_facebook.svg);
+}
+
+.copyright{
+    font: 300 14px/1rem 'furura PT' , 'noto sans japanise' , sans-serif;
+    margin: 30px 0 30px;
+}
+
+
+
+
+
+/* バーガーメニュ */
+    /* .btn-burger {
+        display: none;
+    }
+
+    .logo {
+        width: auto;
+        margin: 0 0 20px;
+        padding: 0;
+        text-align: center;
+    }
+
+    .nav-toggle:checked ~ .nav .nav-list {
+        display: none;
+    }
+
+    .nav {
+        height: 75px;
+    }
+
+    .nav-list {
+        display: flex;
+        justify-content: center;
+        height: 75px;
+        align-items: center;
+    }
+
+    .nav-list li:not(:last-child) {
+        border-right: 1px solid #fff;
+    } */
+
+
+    /*チェックボックス非表示*/
+    .nav-toggle {
+        display: none;
+    }
+
+
+@media screen and (min-width: 768px) {
+    .body_goods {
+        margin-right: 120px;
+    }
+
+    /* 全要素の余白 */
+    .container {
+        max-width: 1300px;
+        padding: 0 40px;
+        margin: 0 auto;
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 480px) {
+   
+
+
+    body{
+        width: 100%;
+
+        padding: 0;
+        margin: 0;
+    }
+    
+    
+    /* 全要素の余白 */
+    .container {
+        padding: 0;
+        margin: 0;
+    }
+
+
+    /* ヘッダとナビゲーションは後回し */
+
+
+    /* ボディ 背景色*/
+    .area_home_main , .area_home_about , .area_home_merit , .area_home_feature , .area_home_cost, .area_home_step{
+        
+        /* padding: 30px 0; */
+    }
+
+
+    /* ボディ　タイトル　共通項目 */
+    .head_home {
+        margin: 10px auto 0;  
+        display: block;
+    }
+
+
+    .ttl_eng {
+        font-size: 60px;
+    }
+    
+    .ttl_ja {
+        font-size: 20px;
+        padding: 8px 0 0 10px;
+    }
+    
+
+    .body_contents {    
+        display: block;
+        justify-content: center; 
+    }
+    
+    .body_goods > img {
+        width: 350px;
+        height: auto;
+    }   
+
+
+    .body_about_txt {
+        font-size:  50px;
+    }
+
+    .body_about_smalltxt {
+        font-size: 15px;
+    }
+
+
+    /* メリットの中を中央揃えしたい */
+    .area_home_merit > .container {
+        display: block;
+        justify-content: center;
+    }
+    
+
+
+/* ここから */
+    .body_feature{
+        margin: 50px 0;
+        display: block;
+    }
+
+
+    .img_push , .img_stamp , .img_coupon , .img_point , .img_photo {
+        height: auto;
+        width: 300px;
+    }
+
+    /* .feature_contents{
+        margin: 50px 0;
+    } */
+
+    /* 
+
+    .feature_ttl{
+        font-size: 40px;
+    }
+
+    .body_feature_txt, .feature_txt {
+        font-size: 15px;
+    }
+
+
+
+    /* ヘッダ */
+ 
+/*  */
+/*ハンバーガーアイコン*/
+.btn-burger {
+    cursor: pointer;
+    display: block;
+    width: 56px;
+    height: 60px;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+
+/*ハンバーガーアイコンを作る三本線*/
+.icon, .icon:before, .icon:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0; 
+    height: 3px; /*線の太さ*/
+    width: 35px; /*線の長さ*/
+    background-color: white;
+    border-radius: 2px;
+    display: block;
+    content: '';
+    cursor: pointer;
+    margin: auto;
+}
+/*三本線の間隔*/
+.icon:before {
+    top: 20px;
+  }
+  .icon:after {
+    top: -20px;
+  }
+
+
+
+
+
+/*アイコンをクリックしたら*/
+.nav-toggle:checked ~ .btn-burger .icon {
+    background: transparent;
+}
+.nav-toggle:checked ~ .btn-burger .icon:before {
+    transform: rotate(-45deg);
+    top: 0;
+}
+.nav-toggle:checked ~ .btn-burger .icon:after {
+    transform: rotate(45deg);
+    top: 0;
+}
+.icon,
+.icon:before,
+.icon:after {
+    transition: all .8s;
+}
+
+.nav-toggle:checked ~ .nav .nav-list {
+    display: block;
+}
+
+
+
+
+
+/*表示されるメニューの中身*/
+/* .area_nav_header {
+    background-color: #5c55e7;
+    
+}
+.list_nav_header a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+}
+.list_nav_header {
+    list-style: none;
+    display: none;
+    margin: 0;
+    padding-left: 20px;
+}
+.list_nav_header li {
+    margin: 0;
+    padding: 10px;
+}
+.nav-toggle:checked ~ .area_nav_header .list_nav_header {
+    display: block;
+}
+*/
+
+} 
+
+
+
+
+
+
